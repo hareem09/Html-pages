@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outermost-box{
+            border: 2px solid lightcoral;
+            background-color: lightcoral;
+            width: 400px;
+            height: 280px;
+            margin: 10px 30px 10px 30px;
+            box-sizing: border-box;
+        }
+        .border-box{
+          background-color: paleturquoise;
+          border: 2px solid paleturquoise;
+          width: 350;
+          height: 220px;
+          margin: 30px 30px 30px 30px;
+          box-sizing: border-box;
+        }
+        .padding-box{
+          background-color: palegreen;
+          border: 2px solid palegreen;
+          width: 280px;
+          height: 170px;
+          margin: 25px 10px 50px 30px;
+          box-sizing: border-box;
+        }
+        .content-box{
+          background-color: skyblue;
+          border: 2px solid skyblue;
+          width: 235px;
+          height: 130px;
+          box-sizing: content-box;
+          margin: 15px 5px 15px 20px;
+          
+        }
+        p{
+            padding: 30px 30px 80px 80px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nested box layout</h1>
+    <div class="outermost-box">
+        
+        <div class="border-box">
+    
+            <div class="padding-box">
+            
+                <div class="content-box">
+                    <p>Hello
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
