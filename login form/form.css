@@ -1,0 +1,205 @@
+*{
+    background-color: rgb(192, 150, 231);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: 2px solid white;
+    background-color: white;
+    width: 460px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5%;
+    border-radius: 15px;
+    /* flex: 1; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /* width: 320px;
+    height: 700px; */
+    border-radius: 15px;
+    /* flex: 1; */
+}
+h1{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    display: flex;
+    border: 1px solid rgb(213, 211, 211);
+    width: 255px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+input{
+    font-size: x-large;
+    /* border:2px solid rgb(203, 201, 201); */
+    background-color: white;
+    border-radius: 15px;
+    width: 255px;
+    height: 40px;
+    border: none;
+}
+.login,.login-1{
+    background-color: blue;
+    color: white;
+}
+.input, .password{
+    border: 2px solid rgb(184, 183, 183);
+    color: grey;
+    width: 320px;
+    margin-top: 45px;
+    height: 40px;
+    font-size: large;
+    padding-left:20px ;
+}
+.password{
+    margin-top: 15px;
+}
+.forget{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid grey; */
+    width: 320px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+a{
+    color: rgb(78, 116, 167);
+    text-decoration: none;
+    text-align: start;
+    background-color: white;
+    /* padding-right: 100px; */
+
+}
+span{
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.login-1{
+    width: 320px;
+    margin-top: 45px;
+    height: 50px;
+}
+.login:hover,.login-1:hover,.signup:hover{
+    background-color:rgb(201, 194, 194);
+    transition: 0.5s;
+}
+@media (max-width:800px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        border: 2px solid white;
+        background-color: white;
+        width: 320px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15%;
+        border-radius: 15px;
+        /* flex: 1; */ 
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        height: 400px;
+        border-radius: 15px;
+        /* flex: 1; */
+    }
+    h1{
+        background-color: white;
+        text-align: center;
+        font-size: medium;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+   }
+   .btn{
+    display: flex;
+    border: 1px solid rgb(213, 211, 211);
+    width: 225px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+input{
+    font-size: medium;
+    /* border:2px solid rgb(203, 201, 201); */
+    background-color: white;
+    border-radius: 15px;
+    width: 225px;
+    height: 30px;
+    border: none;
+}
+.login,.login-1{
+    background-color: blue;
+    font-size: medium;
+    color: white;
+}
+.input, .password{
+    border: 2px solid rgb(184, 183, 183);
+    color: grey;
+    width: 220px;
+    margin-top: 45px;
+    height: 20px;
+    font-size: medium;
+    padding-left:20px ;
+}
+.password{
+    margin-top: 15px;
+}
+.forget{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid grey; */
+    width: 200px;
+    margin-left: 8px;
+    margin-top: 2px;
+    /* border: 2px solid grey; */
+}
+a{
+    color: rgb(78, 116, 167);
+    text-decoration: none;
+    text-align: start;
+    background-color: white;
+    /* padding-right: 100px; */
+
+}
+span{
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.login-1{
+    width: 160px;
+    margin-top: 45px;
+    height: 30px;
+}
+}
