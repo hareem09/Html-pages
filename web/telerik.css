@@ -1,0 +1,229 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.navigation{
+    display: flex;
+    border: 2px solid rgba(35, 30, 25, 0.764);
+    max-width: 105.5%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 30, 25, 0.764);
+    flex: 1;
+}
+.logo{
+    border: 2px;
+    max-width: 12%;
+    height: 30px;
+    margin-left: 35px;
+    display: flex;
+}
+.icon{
+    border: 2px ;
+    width: 8%;
+    height: 15px;
+    margin: 7px;
+    margin-right: 3px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-arrow-trend-up{
+  font-size: 25px;
+}
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+span{
+    font-weight: normal;
+    padding-right: 6px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    border: 2px;
+    width: 990px;
+    height: 40px;
+    margin: 5px;
+    gap: 5px;
+    flex: 1;
+}
+ul{
+    display: flex;
+    flex: 1;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+.upper-body{
+    /* border: 2px solid black; */
+    position: relative;
+    max-width:105.5%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgba(67, 62, 62, 0.545); */
+    /* background-image:url(https://www.mindmybusinessnyc.com/wp-content/uploads/2021/03/6-Ways-To-Impress-Your-Colleagues-At-Work.jpg); */
+}
+img{
+    position: absolute;
+    z-index: -1;
+}
+.heading,.sub-heading{
+    /* border: 2px solid black; */
+    /* flex: 1; */
+    max-width: 50%;
+   display: flex;
+   justify-content: center;
+   height: 80px;
+   align-items:center;
+   padding-top: 10px;
+}
+.sub-heading{
+    height: 50px;
+    padding-bottom: 10px;
+    /* align-self: self-start; */
+}
+h2{
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.lower-body{
+    /* border: 2px solid black; */
+    max-width: 100.5%;
+    height: 615px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+fieldset{
+    border: 2px solid rgb(220, 220, 220);
+    /* border-top-style: dashed; */
+    max-width: 398px;
+    height: 250px;
+    display: flex;
+    margin: 30px 0px 0px 10px;
+    /* margin-top: 15px; */
+    flex-direction: column;
+}
+legend{
+    text-align: center;
+    color: grey;
+}
+.l1,.l2,.l3,.l4,.l5,.l6{
+    /* border: 2px solid rgb(220, 220, 220); */
+    /* border-top-style: dashed; */
+    max-width: 398px;
+    height: 250px;
+    display: flex;
+    /* margin: 30px 5px 0px 30px; */
+    flex-direction: column;
+}
+.h{
+    border: 1px ;
+    max-width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.p{
+    border: 1px ;
+    max-width: 78%;
+    height:10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* align-items: center;  */
+    margin-left: 40px;
+    margin-right: 20px;
+}
+p{
+    font-size: larger;
+    text-align: center;
+    /* text-align: justify; */
+    padding: 0pc 30px 5px 29px;
+    color: rgb(107, 106, 106);
+}
+.btn,.btn2,.btn3,.btn4{
+    border: 1px;
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.btn button{
+    color: white;
+    background-color: rgb(92, 206, 108);
+    height: 40px;
+    max-width: 130px;
+    border: 0;
+}
+.btn2 button{
+    max-width: 130px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(80, 147, 183) ;
+}
+.btn3 button{
+    max-width: 130px;
+    height:40px;
+    border: 0;
+    background-color: orangered;
+}
+.btn4 button{
+    background-color:rgb(63, 86, 91) ;
+    max-width: 130px;
+    height: 40px;
+    border: 0;
+} 
+h5{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* font-size: x-large; */
+    text-align: center;
+}
+.l1 legend{
+    color: greenyellow;
+}
+.l2 legend{
+    color:skyblue;
+}
+.l3 legend{
+    color: orangered;
+}
