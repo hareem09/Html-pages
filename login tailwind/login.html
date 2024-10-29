@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-purple-500 flex justify-center w-screen h-screen">
+    <div class="form flex flex-col bg-white w-96 h-96 rounded-xl align-center self-center max-sm:w-80 max-sm:h-80">
+        <form>
+            <h1 class="font-bold text-2xl text-center pt-5 max-sm:text-base">Login Form</h1>
+            <div class="btn flex w-48 border-2 border-slate-200 rounded-xl justify-center mt-5 ml-20 max-sm:w-32  max-sm:ml-20">
+                <input  class="login w-24 h-10 bg-cyan-800 hover:bg-slate-500 rounded-xl text-white cursor-pointer" type="button" value="Login">
+                <input class="signup w-24 h-10 hover:bg-slate-500 rounded-xl cursor-pointer" type="button" value="Sign up">
+            </div>
+                <input class="input border-2 border-slate-400 w-80 h-10 rounded-xl mt-5 ml-8 pl-2 max-sm:w-64" type="email" name="Email Address" id="Email" placeholder="Email Address">
+                <input class="password border-2 border-slate-400 w-80 h-10 rounded-xl mt-2 ml-8 pl-2 max-sm:w-64" type="password" name="password" placeholder="Password">
+                <a href="#" class="forget flex flex-col text-cyan-500 w-64 ml-8 max-sm:text-sm">Forget Password?</a>
+                <input  class="login-1 flex flex-col border-2 border-cyan-800 text-white cursor-pointer w-56 h-10 ml-20 mt-5 bg-cyan-800 rounded-xl hover:bg-slate-500 delay-150  max-sm:w-32 max-sm:ml-24" type="button" value="Login">
+                <span class="create mt-7 ml-20 max-sm:text-sm max-sm:ml-20">Create an Account <a href="#" class="signup text-cyan-500">SignUp now</a></span>
+        </form>
+    </div>
+</body>
+</html>
