@@ -1,0 +1,137 @@
+*{
+    background-color: aliceblue;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+    border: 2px solid aliceblue;
+    width: 100%;
+    height: 90px;
+   
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    justify-content: flex-start;
+}
+.icon{
+   align-self: center;
+   padding-right: 18px;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border: 2px solid aliceblue;
+    display: flex;
+    flex: 1;
+}
+.task, .progress, .review, .done {
+    border: 2px solid aliceblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading-t, .heading-p, .heading-r, .heading-d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid aliceblue;
+}
+.icon-t, .icon-p, .icon-r, .icon-d {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* Space between icons */
+    color: grey;
+}
+.task-1 {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: white;
+}
+.t1-h,.t1-p,.t1-f{
+    border: 2px solid white;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+h3{
+    padding: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(193, 36, 62);
+    background-color: palevioletred;
+}
+h4{
+    padding: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    background-color: steelblue;
+}
+h5{
+    color: green;
+    font-size: large;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+p{
+    text-align: start;
+    padding: 15px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.task-1 {
+    flex: 1;
+    padding: 20px;
+}
+.icn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 15px;
+    background-color: white;
+    color: grey;
+    font-size: small;
+}
+.fa-circle{
+    font-size: large;
+}
+h3,h4,h5{
+    border: 2px solid grey;
+    border-radius: 30px;
+    margin-left: 10px;
+    text-align: center;
+    /* flex-shrink: 1; */
+}
+.icon-f{
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.fa-comment,.fa-flag,.fa-paperclip,.circle{
+    padding: 18px;
+    background-color: white;
+    font-size:small ;
+    color: grey;
+    padding-bottom: 0px;
+}
+.circle{
+    color: rgb(10, 92, 155);
+    
+}
